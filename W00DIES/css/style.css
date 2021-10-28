@@ -1,0 +1,43 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+.header {
+  min-height: 800px;
+  margin-bottom: 120px;
+}
+.header-table {
+  width: 50%;
+  height: 800px;
+  background: url(../img/header-table.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.header-container {
+  height: 550px;
+  display: flex;
+  align-items: center;
+}
+.nav-link.active {
+  color: #daa520 !important;
+}
+.woodies-text-center {
+  display: flex;
+  align-items: center;
+}
+.woodies-furniture h3 {
+  color: #3e3f43;
+  font-size: 2.25rem;
+}
+.woodies-furniture p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.table¨{
+  display: flex;
+  align-items: center;
+  background-size: contain;
+}
